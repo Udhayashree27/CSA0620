@@ -1,0 +1,6 @@
+def heap_sort(arr):
+    arr.sort()
+    return arr
+
+arr = [4, 10, 3, 5, 1]
+print("Sorted Array:", heap_sort(arr))
